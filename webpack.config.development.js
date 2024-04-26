@@ -40,6 +40,7 @@ module.exports = (env, options) => {
         alias: {
             pages: path.resolve(__dirname, 'src/pages/'),
             components: path.resolve(__dirname, 'src/components/'),
+            types: path.resolve(__dirname, 'src/assets/types/'),
         }, },
         output: {
             filename: "js/[name].bundle.js",
