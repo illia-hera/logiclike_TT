@@ -1,5 +1,12 @@
-.layout{
+.layout {
     display: flex;
-    width: 100%;
     height: 100%;
+
+    .menuwrapper {
+        padding: 24px 0 24px 24px;
+    }
+
+    .contentwrapper {
+        width: 100%;
+    }
 }
