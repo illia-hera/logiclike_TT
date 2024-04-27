@@ -1,0 +1,15 @@
+.menuitem {
+    display: flex;
+    height: 42px;
+    border-radius: var(--border-radius-small);
+    padding: 12px;
+    align-items: center;
+    box-sizing: border-box;
+
+    &:hover,
+    &.selected {
+        background-color: var(--selected-bg-color);
+        color: var(--selected-color);
+        cursor: pointer;
+    }
+}
