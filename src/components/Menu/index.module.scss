@@ -4,7 +4,7 @@
     max-height: 100%;
     padding: 12px 11px;
     flex-direction: column;
-    border-radius: 18px;
+    border-radius: var(--border-radius-big);
     border: 1px solid #CFCFE4;
     box-sizing: border-box;
 }
