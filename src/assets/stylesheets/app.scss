@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-:root
-{
+:root {
     --color: #39414B;
     --border-radius-small: 12px;
-    --border-radius-big: 18px; 
+    --border-radius-big: 18px;
     --selected-color: #fff;
     --selected-bg-color: #5FBF77;
 }
 
-html,body 
-{
+html,
+body {
     font-family: "Nunito", sans-serif;
     width: 100%;
     height: 100%;
@@ -22,8 +21,7 @@ html,body
     overflow: hidden;
 }
 
-#app 
-{
+#app {
     width: 100%;
     height: 100%;
     box-sizing: border-box;

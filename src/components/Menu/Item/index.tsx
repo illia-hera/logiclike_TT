@@ -5,7 +5,8 @@ import classnames from "classnames";
 
 const Item = ({ text, selected, onClick }: IMenuItem) => {
     return (
-        <div className={classnames({ [style.menuitem]: true, [style.selected]: selected })} onClick={onClick}>
+        <div className={classnames({ [style.menuitem]: true, [style.selected]: selected })}
+            onClick={onClick}>
             {text}
         </div>
     );

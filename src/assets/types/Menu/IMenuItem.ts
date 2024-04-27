@@ -1,4 +1,4 @@
-export default interface IMenuItem{
+export default interface IMenuItem {
     selected?: boolean,
     text: string,
     onClick: React.MouseEventHandler,

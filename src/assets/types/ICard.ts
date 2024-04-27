@@ -1,4 +1,4 @@
-export default interface ICard{
+export default interface ICard {
     name: string,
     id: string,
     image: string,
