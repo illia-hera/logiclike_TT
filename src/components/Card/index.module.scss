@@ -2,7 +2,7 @@
     overflow: hidden;
     border-radius: var(--border-radius-small);
     box-shadow: 0em 10px 13px -4px #23235F30;
-    flex: 0 calc(100% / 3 - 12px);
+    flex: 0 calc(100% / 3 - 2 / 3 * var(--cards-gap));
 
     .image {
         height: 162px;
