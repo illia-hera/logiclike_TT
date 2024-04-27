@@ -1,0 +1,17 @@
+.card {
+    overflow: hidden;
+    border-radius: var(--border-radius-small);
+    box-shadow: 0em 10px 13px -4px #23235F30;
+    flex: 0 calc(100% / 3 - 12px);
+
+    .image{
+        height: 162px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title{
+        padding: 12px 18px;
+        word-break: break-word;
+    }
+}
